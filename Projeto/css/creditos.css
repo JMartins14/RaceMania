@@ -1,0 +1,76 @@
+
+a {
+	font-family: Georgia;
+	font-size: 125%;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px #0f0e0f;
+	padding: 10px 74px;
+	border-radius: 10px;
+	background: #abb3b8;
+	text-decoration: none;
+	color:white;
+	background-image: url("../resources/images/carro1.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 2px solid #000000;
+	width: 5%;
+	height: 4%;
+	cursor:pointer;
+	transition: width 0.6s ease-in-out 0s, height 0.6s ease-in-out 0s, background 0.6s linear 0s;
+}
+a:hover{
+	background-color: #737b80;
+	color: black;
+	width: 6%;
+	height: 5%;
+}
+body{
+	background: url("../resources/images/background.jpg") no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+#voltar{
+	position: absolute;
+	top: 90%;
+	left: 80%;
+}
+#somimagem
+{
+	position: fixed;
+	background-color: inherit;
+	border: none;
+	top: 90%;
+	left: 10%;	
+	cursor:pointer;
+}
+article{
+	opacity: 0.9;
+	font-weight: bold;
+	background-color: #abb3b8;
+	position: absolute;
+	display: block;
+	border-radius: 10px;
+	border:2px solid #000000;
+}
+#creditos{
+	width: 30%;
+	color: #fff;
+	top:30%;
+	left: 35%;
+	font-size: 1.875em;
+	text-align: center;
+	font-family: Helvetica;
+	text-shadow: 2px 2px 3px #0f0e0f;
+}
+#nomes{
+	top:40%;
+	left: 35%;
+	width: 30%;
+	font: Calibri;
+	line-height: 165%;
+	font-size: 1.125em;
+	color: black;
+	text-align: justify;
+}
+p{
+	text-align: center;
+}

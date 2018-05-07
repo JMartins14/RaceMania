@@ -1,0 +1,24 @@
+
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1275px;
+    height:600px;
+}
+html,canvas{
+    overflow: hidden;
+}
+
+#somimagem
+{
+	position: fixed;
+	background-color: inherit;
+	border: none;
+	top: 4%;
+	left: 7%;	
+	cursor:pointer;
+}

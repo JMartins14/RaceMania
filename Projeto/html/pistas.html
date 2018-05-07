@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RaceMania</title>
+     <!-- Aqui chamamos o nosso arquivo css externo -->
+        <link rel="stylesheet" type="text/css"  href="../css/pistas.css" />
+    <!--[if lte IE 8]-->
+	    <script type="text/javascript" src="../code/pistas.js" defer="true"></script>
+
+ <!--![endif]-->   
+    </head>
+    <body>
+        <main>
+            <audio id = "audio" autoplay loop>
+                <source src = "../resources/audio/track01.mp3" type="audio/mp3"/>
+            </audio>
+            <audio id="sombotao">
+                <source src="../resources/audio/botaosom.mp3" type="audio/mp3" />
+            </audio>
+            <a id="voltar"> Voltar </a>
+           <img id="somimagem" src="../resources/images/SomOn.png">
+            <article id = "titulocarro">Escolha a sua pista</article>
+           <article id="conteudo">
+                <img id="photo">
+                <img id="backBtn" src="../resources/images/backBtn.png">
+                <img id ="nextBtn" src="../resources/images/nextBtn.png">
+                <img id="confirmBtn" src="../resources/images/confirmBtn.png">
+            </article> 
+        </main> 
+    </body>
+</html>
